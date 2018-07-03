@@ -5,17 +5,17 @@ If coiled differently, software setting need to be changed to correct that.
 
 The password needs to be 8 digits. I used a 5v portable usb battery connect to a nodemcu, and nodemcu pin to the LED directly. The 3.3v pin signal works with the LED strip, no level shift is needed.
 
-After battery connected, from your phone or laptop, connect to wifi with SSID hat2, and enter password 12345678 (can be changed). open web browser and connect to http://192.168.4.1. Saffari does not work, I might need to modify the code to work with iphone.
+After battery connected, from your phone or laptop, connect to wifi with SSID hat2, and enter password 12345678 (can be changed). open web browser and connect to http://192.168.4.1. Safari does not work, I might need to modify the code to work with iphone.
 
 ## Examples
 
 
 ## Limitations
-
+It does not work with safari browser, due to html incompatibility. Some simple modification is needed, I do not have an iphone or mac to test with.
 
 ## Compatible Hardware
 
-WS2812B strip(16.4ft 300 LED Pixel) can be purchased on Amazon. I used this hat https://www.amazon.com/gp/product/B005TFNY6S/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 . 
+WS2812B strip(16.4ft 300 LED Pixel) can be purchased on Amazon. Any ESP8266 board would work. I used this hat https://www.amazon.com/gp/product/B005TFNY6S/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 . 
 
 ## License
 
