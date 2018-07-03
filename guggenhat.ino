@@ -12,7 +12,7 @@
 #include <ESP8266WebServer.h>
 
 //define fastled setting
-#define LED_PIN        8
+#define LED_PIN        D3
 #define COLOR_ORDER    GRB
 #define CHIPSET     WS2812B
 
